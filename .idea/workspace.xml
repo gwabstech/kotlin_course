@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5fd8f73-a0f2-44ea-ae24-401bdfa973fc" name="Changes" comment="done with function.kt">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Lambda functions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Lambda functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Lambda functions.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="Kotlin.Lambda_functionsKt">
     <configuration name="example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example" />
       <module name="kotlin_course" />
@@ -75,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhileKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WhileKt" />
+    <configuration name="Lambda_functionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambda_functionsKt" />
       <module name="kotlin_course" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Lambda_functionsKt" />
         <item itemvalue="Application.main" />
         <item itemvalue="Kotlin.FunctionKt" />
         <item itemvalue="Application.example" />
         <item itemvalue="Kotlin.Break_and_continueKt" />
-        <item itemvalue="Kotlin.WhileKt" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660697535091</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="done with function.kt">
+      <created>1660698755292</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660698755292</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
