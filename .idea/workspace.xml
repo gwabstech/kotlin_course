@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5fd8f73-a0f2-44ea-ae24-401bdfa973fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlin_course.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/DoWhile.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/break and continue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/function.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d5fd8f73-a0f2-44ea-ae24-401bdfa973fc" name="Changes" comment="done with function.kt">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Lambda functions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/while.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/while.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +46,7 @@
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.FunctionKt">
+  <component name="RunManager" selected="Application.main">
     <configuration name="example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example" />
       <module name="kotlin_course" />
@@ -63,15 +54,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Break_and_continueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Break_and_continueKt" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
       <module name="kotlin_course" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoWhileKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DoWhileKt" />
+    <configuration name="Break_and_continueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Break_and_continueKt" />
       <module name="kotlin_course" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,11 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
         <item itemvalue="Kotlin.FunctionKt" />
         <item itemvalue="Application.example" />
         <item itemvalue="Kotlin.Break_and_continueKt" />
         <item itemvalue="Kotlin.WhileKt" />
-        <item itemvalue="Kotlin.DoWhileKt" />
       </list>
     </recent_temporary>
   </component>
@@ -110,6 +101,14 @@
       <option name="presentableId" value="Default" />
       <updated>1659611922894</updated>
     </task>
+    <task id="LOCAL-00001" summary="done with function.kt">
+      <created>1660697535091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660697535091</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,5 +121,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="done with function.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="done with function.kt" />
   </component>
 </project>
