@@ -1,10 +1,14 @@
 fun main() {
 
 
-    val numbers = arrayListOf<Int>(10, 20, 50, 40, 60, 80)
+    val numbers = arrayListOf<Int>(10, 20, 50, 400000, 600000, 80)
     numbers.forEach {
         println("Hello $it")
     }
+    println()
+    numbers.filter{it.toString().length > 5}
+        .forEach {println("Hello $it") }
+
     println("old list: $numbers")
 
     val newNumbers = update(numbers) { numbers -> numbers / 10 }
