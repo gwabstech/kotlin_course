@@ -2,6 +2,9 @@ fun main() {
 
 
     val numbers = arrayListOf<Int>(10, 20, 50, 400000, 600000, 80)
+
+    println(numbers.filter { it in 10..99 })
+
     numbers.forEach {
         println("Hello $it")
     }
@@ -45,4 +48,6 @@ fun messages(clients: ArrayList<String>, l: (String) -> String): ArrayList<Strin
     }
     return messge
 }
+
+
 
