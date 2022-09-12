@@ -1,4 +1,5 @@
-import java.lang.reflect.Array.get
+import java.awt.Color
+import java.time.LocalDate
 import kotlin.properties.Delegates
 
 class calculator {
@@ -92,6 +93,25 @@ open class Job{
     }
 }
 
+class Car {
+
+    var brand:String = ""
+    var higth:Int = 0
+    var topSpeed = 10
+
+    constructor(color: Color, higth:Int) {
+
+    }
+    constructor(brand:String,higth:Int,topSpeed:Int){
+        this.brand = brand
+        this.higth = higth
+        this.topSpeed = topSpeed
+
+    }
+
+
+
+}
 
 class Doctor:Job(){
 
@@ -100,6 +120,9 @@ class Police :Job(){
 
 }
 fun main() {
+
+    val myCar = Car("BMW",500000,300)
+    println("The ${myCar.brand}  is having a speed of ${myCar.topSpeed}")
     val cal = calculator()
     cal.addToTotal(30.0)
     cal.multiplyTotal(30.90)
@@ -157,4 +180,64 @@ fun main() {
     println("the ${police.name} job has a revenue of ${police.revenue}")
     println("the ${doctor.name} job has a revenue of ${doctor.revenue}")
 
+    val message = postMessage()
+    message.updateMessge("Meeting at about 5pm  ${LocalDate.now()}")
+    message.printMessage()
+    val content = box()
+    content.updateContent("YESSSSSSSSSSSSSSSSS")
+    val table = Table()
+    println(table.higth)
+    println(table.size)
+    table.adjustHandS(100,500)
+
+    val laptop = Laptop()
+    val webBrowser = WebBrowser()
+
 }
+
+class postMessage(){
+    var message: String = ""
+
+    fun updateMessge(message: String){
+        this.message = message
+    }
+
+    fun printMessage(){
+        println(message)
+    }
+
+
+
+}
+
+class box {
+    var content: String =""
+    fun updateContent( content:String){
+        this.content = content
+        println(this.content)
+    }
+}
+
+class Table{
+    var higth:Int = 0
+    var size:Int = 0
+    fun adjustHandS(high:Int, size:Int){
+        this.size = size
+        this.higth = high
+        println("The  updated high is $high and the size is $size")
+    }
+}
+
+class Laptop{
+    init {
+        println("Windows 10 operating System has been installed")
+    }
+}
+
+class WebBrowser{
+    val homePage = "This is the home page"
+    init {
+        println("Connected $homePage")
+    }
+}
+
